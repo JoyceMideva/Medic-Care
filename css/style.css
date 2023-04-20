@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navigation-links a{
+  text-decoration: none;
+  color: #000;
+}
+.navigation-links a:hover{
+  color: #496BF1;
+}
+p{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h2{
+  margin: 1em 0;
+  font-size: 3rem;
+  text-shadow: 0px 0px 5px gray;
+  color: #496bf2;
+}
+h3{
+  font-size: 2rem;
+}
+.btn {
+  padding: 1.5em 2em;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn-blue {
+  background-color: #496bf2;
+}
+.btn-green {
+  background-color: #2dd6c1;
+}
+.logo {
+  float: left;
+}
+.navigation-links {
+  float: right;
+}
+.navigation-links ul li {
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.5rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.clearfix {
+  clear: both;
+}
+.hero {
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+.hero-content {
+  width: 40%;
+  float: right; 
+  padding: 0 3em ;
+  margin: 10em 0;
+}
+.hero-content h1 {
+  color: #496bf1;
+  text-shadow: 1px 1px 3px gray;
+  font-size: 3.5rem;
+}
+.hero-content p{
+  margin: 2em 0 ;
+}
+.home {
+  color: #496bf2;
+}
+.card{
+  float: left;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px lightgray;
+  padding:1em 0em;
+  height: 350px;
+  text-align: center;
+}
+.card:nth-child(2){
+margin :0% 5%;
+padding: 1em 3em;
+}
+.card h3{
+  color: #496BF1;
+  margin: 24px 32px;
+}
+.features{
+  margin: 5em 0;
+}
+.clearfix{
+  clear:both;
+}
+.about-content{
+  float:right;
+  width:49%;
+}
+.about-content p{
+margin-bottom: 1.3em;
+}
+.images{
+  width: 49%;
+  float: left;
+}
+.images img {
+  width: 100%;
+  margin: 3.5em 0;
+}
+.blue-heading{
+  color: #496bf2;
+}
+.green-heading{
+  color: #2dd6c1;
+}
+
+.right-quote{
+  float: right;
+}
+.happy h2, .testimonials-profile{
+  text-align:center;
+}
+.testimonials-content{
+width: 50%;
+margin: 0 auto;
+}
+.circles{
+  width: fit-content;
+  margin: 0 auto;
+}
+.circle:nth-child(2){
+  padding: 0 0.6em;
+  
+}
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+}
+.circle-blue{
+  background-color: #496bf1;
+}
+.circle-green{
+  background-color: #2dd6c1;
+}
+.doctor{
+  background-image:url(../images/ezgif-2-81a50240fb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+.doc-content h2{
+text-align: center;
+}
+.doctor form{
+  width: 50%;
+  padding:10em 0;
+}
+input[type="text"], input[type="email"],textarea {
+  width: 100%;
+  padding: 2.5em;
+  margin-top: 1.5em ;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.hear{
+  padding: 2em 0;
+}
+.hear:nth-child(2){
+padding: 0 10em;
+}
+.footer-section{
+  float: left;
+  margin: 0 2em;
+  width: 20%;
+}
+.footer-section ul li{
+  list-style-type: none;
+  padding: 0.5em;
+}
+.hearts{
+  color: #f00;
+}
+.copyright{
+  text-align: center;
+}
+.love{
+  color: #f00;
+}
